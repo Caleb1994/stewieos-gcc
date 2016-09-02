@@ -4,7 +4,7 @@
  
 /* Default arguments you want when running your
    i686-myos-gcc/x86_64-myos-gcc toolchain */
-#define LIB_SPEC "-lc" /* link against C standard library */
+#define LIB_SPEC "-lc -lm" /* link against C standard library */
  
 /* Don't automatically add extern "C" { } around header files. */
 #undef  NO_IMPLICIT_EXTERN_C
